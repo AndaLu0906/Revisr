@@ -6,7 +6,7 @@
 
 An intelligent essay grading system that provides instant, detailed feedback on student writing using AI. This full-stack application helps educators and students by automating the essay review process with comprehensive rubric-based assessments.
 
-## ✨ Features
+## Features
 
 - **AI-Powered Analysis**: Leverages advanced language models for comprehensive essay evaluation
 - **Structured Feedback**: Provides detailed feedback on writing quality, structure, and content
@@ -14,7 +14,7 @@ An intelligent essay grading system that provides instant, detailed feedback on 
 - **Real-time Processing**: Delivers instant feedback to users
 - **Secure & Private**: All processing happens locally when using the self-hosted version
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -50,17 +50,17 @@ An intelligent essay grading system that provides instant, detailed feedback on 
 5. **Access the API**
    The API will be available at `http://localhost:8000`
 
-## 🛠️ API Endpoints
+## API Endpoints
 
 - `POST /api/upload` - Submit an essay for grading
   - Requires: `paper` (file), `rubricFile` (optional), `rubricText` (optional)
   - Returns: Grading results with scores and feedback
 
-## 🤖 AI Integration
+## AI Integration
 
 This project uses [Ollama](https://ollama.ai/) for local AI processing. Make sure to have Ollama installed and running with the desired model (e.g., llama3) before starting the server.
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 backend/
@@ -74,12 +74,12 @@ backend/
 └── server.js        # Entry point
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- Built with ❤️ using Node.js and Express
+- Built using Node.js and Express
 - Powered by Ollama for local AI processing
 - Inspired by the need for better educational tools
